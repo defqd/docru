@@ -8,7 +8,7 @@
         /// <summary>
         /// Сортирует цифры числа по убыванию
         /// </summary>
-        /// <param name="number"></param>
+        /// <param name="number">Неотрицательное целое число</param>
         /// <returns>Число отсортированное по убыванию</returns>
         /// <exception cref="ArgumentOutOfRangeException"></exception>
         public static int SortNumber(int number)
