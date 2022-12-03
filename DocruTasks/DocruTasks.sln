@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocruTasks", "DocruTasks\DocruTasks.csproj", "{0DEAE98D-A980-4C69-86FC-937CADE4B5AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocruTasks.Tests", "DocruTasks.Tests\DocruTasks.Tests.csproj", "{A8FD26DC-DB19-4764-917F-30E50EBB24B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DEAE98D-A980-4C69-86FC-937CADE4B5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEAE98D-A980-4C69-86FC-937CADE4B5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEAE98D-A980-4C69-86FC-937CADE4B5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEAE98D-A980-4C69-86FC-937CADE4B5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FD26DC-DB19-4764-917F-30E50EBB24B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FD26DC-DB19-4764-917F-30E50EBB24B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FD26DC-DB19-4764-917F-30E50EBB24B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FD26DC-DB19-4764-917F-30E50EBB24B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5585C5E-26C1-4430-A4AE-5341D7FBC1AA}
+	EndGlobalSection
+EndGlobal
