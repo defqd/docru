@@ -6,9 +6,10 @@
     public static class SumOfDigits
     {
         /// <summary>
-        /// Возвращает сумму цифр числа
+        /// Вычисляет сумму цифр числа
         /// </summary>
         /// <param name="number">Натуральное положительное число</param>
+        /// <returns>Возвращает сумму цифр числа</returns>
         /// <exception cref="ArgumentOutOfRangeException"></exception>
         public static int DigitsSum(int number)
         {
