@@ -6,6 +6,7 @@ namespace DocruTasks.Tests
         [TestCase(16, 7), Description("Тестируем нахождение суммы цифр числа")]
         [TestCase(942, 6)]
         [TestCase(1234, 1)]
+        [TestCase(1,1)]
         public void DigitsSumTest(int number, int expected)
         {
             var result = SumOfDigits.DigitsSum(number);

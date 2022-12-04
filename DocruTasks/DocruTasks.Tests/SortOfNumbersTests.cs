@@ -6,7 +6,7 @@
         [TestCase(42145, 54421), Description ("Тест сортировки цифр числа по убыванию")]
         [TestCase(123456789, 987654321)]
         [TestCase(0, 0)]
-        public void SortNumber(int number, int expected)
+        public void SortNumberTest(int number, int expected)
         {
             var result = SortOfNumbers.SortNumber(number);
 

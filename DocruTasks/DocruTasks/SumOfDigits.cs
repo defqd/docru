@@ -16,22 +16,24 @@
             if (number <= 0)
                 throw new ArgumentOutOfRangeException("Число не может быть отрицательным или равным 0");
 
-            int result = 0;
-            int digits = 0;
+            //int result = 0;
+            //int digits = 0;
 
-            while (number > 0)
-            {
-                result += number % 10;
-                number /= 10;
-                digits++;
-            }
+            //while (number > 0)
+            //{
+            //    result += number % 10;
+            //    number /= 10;
+            //    digits++;
+            //}
 
-            if (digits > 1)
-            {
-                number = result;
-                return DigitsSum(number);
-            }
-            return result;
+            //if (digits > 1)
+            //{
+            //    number = result;
+            //    return DigitsSum(number);
+            //}
+            //return result;
+
+            return (number - 1) % 9 + 1;
 
         }
     }
