@@ -3,7 +3,7 @@ namespace DocruTasks.Tests
     [TestFixture]
     public class SumOfDigitsTests
     {
-        [TestCase(16, 7), Description("Тестируем нахождение суммы цифр числа")]
+        [TestCase(16, 7), Description("РўРµСЃС‚РёСЂСѓРµРј РЅР°С…РѕР¶РґРµРЅРёРµ СЃСѓРјРјС‹ С†РёС„СЂ С‡РёСЃР»Р°")]
         [TestCase(942, 6)]
         [TestCase(1234, 1)]
         [TestCase(1,1)]
@@ -14,7 +14,7 @@ namespace DocruTasks.Tests
             Assert.That(result, Is.EqualTo(expected));
         }
 
-        [TestCase(0), Description("Тестируем ненатуральные числа")]
+        [TestCase(0), Description("РўРµСЃС‚РёСЂСѓРµРј РЅРµРЅР°С‚СѓСЂР°Р»СЊРЅС‹Рµ С‡РёСЃР»Р°")]
         [TestCase(-1)]
         public void NegativeOrZeroNumberTest(int number)
         {
